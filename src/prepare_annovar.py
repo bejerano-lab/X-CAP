@@ -4,8 +4,7 @@ import subprocess
 import sys
 
 def make_directory_if_necessary(directory):
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+    os.makedirs(directory, exist_ok=True)
 
 def is_already_prepared(gencode_dir):
     fnames = set([fname for fname in os.listdir(gencode_dir)])
