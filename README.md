@@ -7,6 +7,7 @@ X-CAP is a GBT model that predicts the pathogenicity of single-nucleotide stopga
 - ```data```: variants in D_original and D_validation (HGMD variants are only labeled with accession numbers)
 - ```example```: demo of X-CAP on chromosome 21 variants in D_validation
 - ```figures```: code to generate figures/tables in the paper
+- ```predictions```: X-CAP predictions for all stopgains in the human proteome
 - ```src```: code to generate X-CAP features and run X-CAP on a VCF file
 
 ## Setup
