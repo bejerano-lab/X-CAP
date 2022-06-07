@@ -4,7 +4,8 @@ X-CAP is a GBT model that predicts the pathogenicity of single-nucleotide stopga
 
 ## Repository structure
 - ```bin```: the trained X-CAP model
-- ```example```: demo of X-CAP on chromosome 21 variants in D_validation
+- ```data```: variants in $$\mathcal{D}_{\text{original}}$$ and $$\mathcal{D}_{\text{validation}}$$ in VCF files; variants from HGMD are only labeled with their accession number
+- ```example```: demo of X-CAP on chromosome 21 variants in $$\mathcal{D}_{\text{validation}}$$
 - ```figures```: code to generate figures/tables in the paper
 - ```src```: code to generate X-CAP features and run X-CAP on a VCF file
 
